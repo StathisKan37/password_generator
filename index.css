@@ -1,0 +1,46 @@
+:root{
+	--Jade_green: #20bf55;
+	--Yale_blue: #0b4f6c;
+	--Bright_sky: #01baef;
+	--Bright_snow: #fbfbff;
+	--Grey: #757575;
+}
+
+@font-face {
+	font-family: Komika Axis;
+	src: url(fonts/komika_axis.ttf);}
+
+body{
+	font-family: "Komika Axis";
+	background-color: var(--Yale_blue);}
+
+h1{
+	font-size: 65px;
+	color: var(--Bright_snow);}
+.h1Green{
+	color: var(--Jade_green);}
+
+h3{
+	color: var(--Bright_snow);}
+
+.generator{
+	margin: 15px;
+	height: 50px;
+	width: 300px;
+	border: none;
+	border-radius: 10px;
+	font-family: "Komika Axis";
+	font-size: 23px;
+	background-color: var(--Jade_green);
+	color: var(--Bright_snow);}
+
+.resultButton{
+	margin: 5px;
+	height: 50px;
+	width: 300px;
+	border: none;
+	border-radius: 10px;
+	font-family: "Comic Sans MS";
+	font-size: 30px;
+	background-color: var(--Grey);
+	color: var(--Bright_snow);}
