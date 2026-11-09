@@ -9,10 +9,21 @@
 	<div class="container">
 	<h1>Generate a <span class="h1Green">random password</span></h1>
 	<h3>Never use any insecure password again. Generate a password with many characetrs and symbols, and nobody will be able to break it!</h3>
+	<h3>Include:</h3>
+	<form onsubmit="symbolsCheck(event)">
+    	<label><input type="checkbox" id="uppercase" checked>Uppercase letters</label>
+		<br>
+    	<label><input type="checkbox" id="lowercase" checked>Lowercase letters</label>
+		<br>
+    	<label><input type="checkbox" id="numbers" checked>Numbers</label>
+		<br>
+    	<label><input type="checkbox" id="special" checked>Special symbols</label>
+	</form>
 	<button class="generator" onclick="givePassword()">Generate password</button>
 	<br>
 	<button id="password1" class="resultButton" onclick="copyText(this)"></button>
 	<button id="password2" class="resultButton" onclick="copyText(this)"></button>
+	<button id="password3" class="resultButton" onclick="copyText(this)"></button>
 	</div>
 </body>
 </html>
