@@ -19,8 +19,10 @@ h1{
 	color: var(--Bright_snow);}
 .h1Green{
 	color: var(--Jade_green);}
-
 h3{
+	color: var(--Bright_snow);}
+
+label{
 	color: var(--Bright_snow);}
 
 .generator{
